@@ -3,7 +3,6 @@
 #include <opencv2/core.hpp>
 #include <opencv2/imgproc.hpp>
 #include <iostream>
-#include <string>
 #include <queue>
 
 #include "node.h"

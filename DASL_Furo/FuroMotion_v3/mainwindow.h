@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "FuroRobot.h"
+#include "node.h"
 #include <opencv2/core/core.hpp>
 using namespace cv;
 
@@ -27,6 +28,7 @@ private:
 private slots:
     void update();
 
+    void on_A_Star_clicked();
     void on_pushButtonUp_clicked();
     void on_pushButtonDown_clicked();
     void on_pushButtonStop_clicked();
